@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  inscription </title>
+<link rel="stylesheet" type="text/css" href="formstyle.css">
+<link  type="javascripts" href="date.js">
+<link  type="php" href="list.php">
+<script>
+   //* $("#submit").click (function(){ 
+
+	alert ("demande envoyer attend en reponse....")
+	})
+</script>
+<script Language "javascript">
+function text()
+{
+    if (document.formulaire.n1.value==""|| document.formulaire.user_email.value==""||document.formulaire.sp.value=="")
+     { alert ("remplire les champs...");}
+
+}
+</script>
+</head>
+<body>
+<div> 
+<form  name="formulaire" action="inscription.php" method="POST">
+<table>
+<tr>
+<td><label for="n"> Nom:</label></td>
+<td><input type="text" id="n" name="n1"></td>
+</tr>
+<tr>
+<td><label for="p"> Prenom:</label></td>
+<td><input type="text" id="P" name="p1"></td>
+</tr>
+<tr>
+<td><label for="d"> Date de naissance:</label></td>
+<td><input type="date" id="d" name="d1"></td>
+</tr>
+<tr>
+<td><label for="g"> genre:  </label>
+<label>homme</label>
+<input type="radio"  name="g1" class="g" value="H">
+<label>femme</label>
+<input type="radio"  name="g1" class="g" value="F"></td>
+</tr>
+<tr>
+<td><label for="sf"> situation familiale:</label>
+<label>Celibataire</label>
+<input type="radio" name="sf" value="celibataire">
+<label> Marie (e)</label>
+ <input type="radio"  name="sf" value="marie(e)"></td> 
+</tr>
+<tr>
+<td><label for="d2">Dipl&Ocircme: </label>
+<label>Lience</label>
+<input type="checkbox" id="s" name="dip">
+<label>Master</label>
+<input type="checkbox" id="s" name="dip">
+</td>
+</tr>
+<tr>
+<td>
+<label for="d2">Specialite: </label>
+<select  name="sp"> 
+<option value=""></option>
+<option value="Math">Math</option>
+<option value="Phisique">Phisique</option>
+<option value="Science">Science</option>
+<option value="Sport">Sport</option>
+<option value="Arab">Arab</option>
+<option value="Francais">Francais</option>
+<option value="Anglais">Anglais</option>
+<option value="hisoire et geographie">hisoire et geographie </option>
+<option value="islamik">islamik</option></td>
+</select>
+</tr>
+<tr>
+<td><label for="e"> experiance:</label></td>
+<td><input type="text" id="e" name="e1"></td>
+</tr>
+<tr>
+<td><label for="a"> Adresse:</label></td>
+<td><input type="text" id="a" name="a1"></td>
+</tr>
+<tr>
+<td><label for="email"> email:</label></td>
+<td><input type="email" id="email" name="user_email"></td>
+</tr>
+<tr>
+<td><label for="ntelephone"> Ntelephone:</label></td>
+<td><input type="Ntelephone" id="Ntelephone" name="user_Ntelephone"></td>
+</tr>
+
+</table>
+<button type="submit" id="submit" name="valide"  onclick"javascript:text()">Envoyer </button>
+<button type="supprimer" id="Annuler" name="Annuler" >Annuler</button>
+<button> <a href="page02.html">pr&eacute;c&eacute;dent</a></button>
+<button> <a href="list.php">suivantt</a></button>
+</form>
+
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,19 @@
+body{
+    background-color: AntiqueWhite;
+    margin:30px;
+	padding:40px;
+	font-family:'Montserrat',sans-serif;
+	align-items: centre;
+}
+    header h1{
+		font-family: 'playfair Display', sans-serif;
+		font-size: 30px;
+		color:#e933ff;
+		text-align: centre;
+			
+	}
+	 header h2{
+		font-family: 'playfair Display', sans-serif;
+		font-size: 30px;
+		
+		}

@@ -1,0 +1,47 @@
+body{
+	background-color: red;
+		margin:0px;
+		padding: 60px;
+		cursor: pointer;
+}
+header h1{
+		     font-size: 30px;
+             display: flex;
+             flex-direction: column;	
+             align-items: center;
+			 color:#e933ff;
+      }
+	  header h2{
+		   font-size: 25px;
+             display: flex;
+             flex-direction: column;	
+             align-items: center;
+			 }
+.enseignant{
+	border-collapse: collapse;
+	width:100%;
+}
+.enseignant td, .enseignant th{
+	border: 1px solid #gray;
+	padding: 7px;
+	
+}
+.enseignant th{
+	background: #4caf50;
+	color: #white;
+	padding-top: 11px;
+	padding-bottom: 11px;
+
+}
+.enseignant tr:nth-child(even){
+	background-color: #ccc;
+}
+.enseignant tr{
+	text-align:center;
+
+}
+#sub{
+	border:1px solid ;
+	text-align: centre;
+	background-color: red;
+}
